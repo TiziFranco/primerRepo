@@ -1,3 +1,0 @@
-Primero hacemos git add .
-Despues git commit -m "mensaje"
-Y por ultimo git push 

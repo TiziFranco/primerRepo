@@ -1,0 +1,49 @@
+        body {
+            background-color: darksalmon;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: -8px;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            top: 0px;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            color: rgb(231, 124, 110);
+        }
+        
+        .active {
+            color: rgb(231, 124, 110);
+        }
+        
+        .container {
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        .formulario {
+            text-align: center;
+        }

@@ -1,0 +1,5 @@
+Primero hacemos git add .
+Despues git commit -m "mensaje"
+Y por ultimo git push 
+//firebase 
+firebase deploy //siempre que haga un cambio
