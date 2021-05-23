@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script type="text/javascript" src="../Scripts/home.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/home.css">
     <link rel="icon" href="./Imagenes/doctor.png">
@@ -20,7 +21,66 @@
             <li><a href="./HTML/form.html">FORMS</a></li>
         </ul>
     </nav>
-</body>
+    <div class="container medida mt-5 height bg-white">
 
+        <div class="form-group">
+            <br>
+            <input class="form-control" type="text" disabled id="resultado">
+
+            <div class="row">
+
+                <div class="col">
+                    <button onclick="digito('1')" class="btn btn btn-info mt-3">1</button>
+                </div>
+                <div class="col"><button onclick="digito('2')" class="btn btn btn-info mt-3">2</button>
+
+                </div>
+                <div class="col"><button onclick="digito('3')" class="btn btn btn-info mt-3">3</button>
+                </div>
+                <div class="col"><button onclick="digito('-')" class="btn btn btn-info mt-3">-</button>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col"><button onclick="digito('4')" class="btn btn btn-info mt-3">4</button>
+                </div>
+                <div class="col"><button onclick="digito('5')" class="btn btn btn-info mt-3">5</button>
+                </div>
+                <div class="col"><button onclick="digito('6')" class="btn btn btn-info mt-3">6</button>
+                </div>
+                <div class="col"><button onclick="digito('+')" class="btn btn btn-info mt-3">+</button>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col"><button onclick="digito('7')" class="btn btn btn-info mt-3">7</button>
+                </div>
+                <div class="col"><button onclick="digito('8')" class="btn btn btn-info mt-3">8</button>
+                </div>
+                <div class="col"><button onclick="digito('9')" class="btn btn btn-info mt-3">9</button>
+                </div>
+                <div class="col"><button onclick="digito('X')" class="btn btn btn-info mt-3">x</button>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col"><button onclick="limpiar()" class="btn btn btn-info mt-3">AC</button>
+                </div>
+                <div class="col"><button onclick="digito('0')" class="btn btn btn-info mt-3">0</button>
+                </div>
+                <div class="col"><button onclick="resolver()" class="btn btn btn-info mt-3">=</button>
+                </div>
+                <div class="col"><button onclick="digito('/')" class="btn btn btn-info mt-3">/</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
 
 </html>

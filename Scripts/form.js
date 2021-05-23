@@ -12,7 +12,7 @@ function Formulario() {
             Swal.fire('Campos vacios', 'Complete los datos', 'warning')
         } else {
             Swal.fire('Registrado', '¡Bienvenido ' + nombrecompleto + "!", 'success')
-
+            localStorage.setItem('nombre', nombre)
         }
 
     } else {

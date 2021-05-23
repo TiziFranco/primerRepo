@@ -3,3 +3,6 @@ Despues git commit -m "mensaje"
 Y por ultimo git push 
 //firebase 
 firebase deploy //siempre que haga un cambio
+
+hacer un conteiner con un boton en home que al apretarlo salga un alert que muestre el nombre d ela persona ingresada
+al contrario enviar un alert que diga llene el formulario 
